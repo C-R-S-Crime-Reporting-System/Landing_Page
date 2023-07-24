@@ -81,7 +81,7 @@ function Header() {
             }}
             className="resumebtn"
           >
-            <span>Report</span>
+            <a href="https://celadon-pie-c9de0e.netlify.app/"><span>Report</span></a>
           </Button>
         </Nav>
       </Navbar.Collapse>
