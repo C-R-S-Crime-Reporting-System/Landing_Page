@@ -1,11 +1,8 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
 import adminpanel from '../assets/images/adminpanel.jpg'
-import olximage from "/src/assets/images/olximage.jpg";
-import netfliximage from "/src/assets/images/netflix.jpg";
-import gridlinesbuilders from "/src/assets/images/Gridlinesbuilders.jpg";
-import charlespizza from "/src/assets/images/pizza.jpg";
-import todolist from "/src/assets/images/todolist.jpg";
+import olximage from "../assets/images/olximage.jpg";
+import netfliximage from "../assets/images/netflix.jpg";
 import "../pages/style.css";
 
 
