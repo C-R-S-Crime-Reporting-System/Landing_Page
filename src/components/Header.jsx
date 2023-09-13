@@ -5,7 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "../pages/style.css";
 
-
 function Header() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -72,16 +71,15 @@ function Header() {
             </NavLink>
           </Nav.Item>
 
-
           <Button
             onClick={() => {
-              window.open(
-                "https://celadon-pie-c9de0e.netlify.app/"
-              );
+              window.open("https://report.ajnasnb.me/");
             }}
             className="resumebtn"
           >
-            <a href="https://report.ajnasnb.me/"><span>Report</span></a>
+            <a href="https://report.ajnasnb.me/">
+              <span>Report</span>
+            </a>
           </Button>
         </Nav>
       </Navbar.Collapse>
